@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    height: 100px;
+    color: white;
+    background-color: rgb(158, 155, 155);
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.nav-links{
+    width: 600px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    height: 28px;
+    width: 94px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(14, 118, 203);
+    border: none;
+    font-size: 18px;
+    box-shadow: 5px 5px black;
+}
